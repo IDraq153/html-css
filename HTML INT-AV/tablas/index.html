@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--USADO PARA ORGANIZAR INFO DE FORMA CLARA DATOS EN FILAS Y COLUMNAS-->
+    <table>
+        <thead> <!--Define seccion entera solo da mas poder-->
+            <tr>
+                <th>Nombre</th> <!--representa encabezado de tabla-->
+                <th>Apellido 1</th>
+                <th>Apellido 2</th>
+            </tr>
+        </thead>
+        <tbody> <!--Solo da mas poder a la pagina-->
+            <tr> <!--representa filas de tabla-->
+                <td>Dario</td>
+                <td>Rua</td>
+                <td>Melendez</td>
+            </tr>
+            <tr>
+                <td>Juanito</td>
+                <td>Mercedez</td>
+                <td>Alcachofa</td>
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Nieves</td>
+                <td>Perina</td>
+            </tr>
+            <tr>
+                <th class="subtotal-header">Subtotal</th>
+                <td class="subtotal-header" colspan="2">100</-> <!--Espacio entre columnas 2-->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

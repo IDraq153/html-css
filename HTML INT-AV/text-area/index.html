@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <fieldset>
+            <legend>INFORMACIÓN BASICA</legend>
+            <!--NORMAL INPUTS-->
+            <div class="form_input">
+                <label>Nombre completo
+                <input type="text" placeholder="Juanito">
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Email
+                <input type="email" placeholder="ejemplo@gmail.com">
+                </label>
+            </div>
+
+            <!--Select y option-->
+            <div class="form_input">
+                <label>Tipo de usuario
+                    <select name="type-of-user">
+                        <option>Empresa</option>
+                        <option>Seguidor</option>
+                    </select>
+                </label>
+            </div>
+
+            <!--Datalist y option-->
+            <div class="form_input">
+                <label>Referente
+                    <input list="referente" name="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option>Empresa</option>
+                        <option>Seguidor</option>
+                    </datalist>
+                </label>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>CONTACTO</legend>
+            <!--TEXTAREA-->
+            <div class="form_input"> 
+                <label>Mensaje
+                <!--readonly solo lectura hace focus, disabled desactiva campo de texto no se envia el dato ni se enfoca, maxlenght cuanto maximo caracteres, rows cantidad de lineas que puede tener-->
+                <textarea rows="9" placeholder="Deja tu mensaje..."></textarea>
+                </label>
+            </div>
+            <div class="form_input">
+                <label>Acepto los <a href="terms.html" target="blank">terminos y condiciones</a>
+                    <input type="checkbox" class="checkbox">
+                </label>
+            </div>
+
+        </fieldset>
+    </form>    
+</body>
+</html>
+
+<!--6:18:00-->

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls autoplay muted loop src="acavavideo">Tu navegador no soporta video</video> <!--autoplay inicia el video automatico, si no va el mute el video no se va reproducir, controls para permitir adelantar el video etc, loop bucle el video -->
+    <track src="captions.vtt" default kind="subtitles" srclang="es">
+    <!--Dubtitulos para el video--> 
+    <audio src="elaudio"></audio> <!--El archivo siosi tiene que ser un audio para no sobrecargar el navegador-->
+    <img loading="lazy" src="imagen.png">
+</body>
+</html>
+<!--Loading lazi sirve para que se cargue al ultimo, no sobresaturar la pagina la pagina va cargando segun baja el usuario-->

@@ -1,0 +1,26 @@
+.roja {
+    height: 100px;
+    width: 100px;
+    background: red;
+    padding: 20px;
+}
+.azul {
+    height: 100px;
+    width: 100px;
+    background: blue;
+    padding: 30px;
+}
+.verde {
+    height: 100px;
+    width: 100px;
+    background: green;
+    padding: 40px;
+}
+.caja {
+    margin: 20px
+}
+.Enlace {
+    text-align: center;
+    color: white;
+    font-weight: 400;
+} 

@@ -1,0 +1,10 @@
+/*El orden en el que se da las cosas importa*/
+#titulo { /*Especificidad mas importante*/
+    color: green
+}
+.titulo { /*Especificidad importante*/ 
+    color: red;
+}
+h1 {/*Especificidad menos importante*/
+    color: blue !important; /* !important tiene la mayor especificidad sobretodo*/
+}

@@ -1,0 +1,60 @@
+html { /* rem busca en la raiz y em busca en el elemento padre */
+    font-size: 30px;
+}
+body{
+    margin: 0;
+    background-color: hsl(30, 10%, 80%);
+}
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 15px;
+    height: 180px;
+    width: 80vw;
+    box-sizing: border-box;
+    margin: auto; /* centra horizontalmente */
+    margin-top: 5vh;
+    /* Ambos miden la mitad a tiempo real*/
+}
+.logo {
+    width: 70%;
+    height: 2.7in;
+    margin-top: 120px;
+    margin-left: 85px;
+    border-radius: 10px;
+}
+
+.formulario {
+    border: none;
+    background-color: #ededee;
+    border-bottom: 2px solid #5556;
+    margin: 3px 20px;
+    width: 70%;
+    padding: 8px 20px;
+    
+}
+.contraseña {
+    margin-top: 10px;
+    background: #aaa3;
+    border-radius: 5px;
+    width: 20%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;   
+}
+p {
+    color: #555;
+    font-size: 1em;
+    line-height: 2ex;
+    text-align: justify;
+}
+span {
+    color: #999;
+    font-size: 16px;
+    font-style: oblique 5deg;
+    font-weight: 100;
+}

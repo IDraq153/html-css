@@ -1,0 +1,16 @@
+div {
+    background: red;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px;
+    margin: auto;
+    font-weight: 600;
+    padding: 6px;
+    letter-spacing: 5px;
+}
+
+div {
+    border-bottom: 3px solid black; /* tamaño, estilo, color*/
+    border-right: 3px solid black;
+    border-radius: 5px 5px 0 0;
+}

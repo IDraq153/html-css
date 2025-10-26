@@ -1,0 +1,17 @@
+body{
+    color:blue
+}
+div{
+    width:50%;
+    color: brown;
+    font-family: sans-serif;
+}
+
+/*herencia de estilos cada vez mas arriba*/
+h1{
+    color:inherit; /*hereda el color del div*/
+    width: inherit; /*hereda el ancho del div*/
+    color: initial; /*hereda el color del body*/
+    font-family: unset; /*resetear la fuente a la del body*/
+    color: revert; /*vuelve al color por defecto del navegador*/
+}

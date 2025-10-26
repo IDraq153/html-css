@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+.box-default {
+    padding: 25px;
+    border: 2px solid black;
+}
+.box-new{
+    box-sizing: border-box; /*ajusta el contenido el total sea lo definido en la caja principal 100 */
+    padding: 25px;
+    border: 2px solid black;
+}

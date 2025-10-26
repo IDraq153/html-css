@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: forestgreen;
+    font-family: Montserrat;
+    font-style: oblique 5deg;
+    font-size: 45px;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+p {
+    color: red;
+    font-family: sans-serif, tahoma, arial; /* Mas de una palabra en ''*/
+    font-size: 13px; /* tamaño */
+    font-weight: 600; /* negrita */
+    font-style: oblique 5deg; /* cursiva */
+    text-align: justify; 
+    line-height: 1.3; /* distancia entre lineas*/
+    letter-spacing: 2px;
+}

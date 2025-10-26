@@ -1,0 +1,31 @@
+body {
+    background-color: lemonchiffon;
+    font-family: sans-serif;
+    color: white;
+}
+.card {
+    background: orangered;
+    text-align: center;
+    width: 350px;
+    margin: auto; /* el contenedor va a la mitad */
+    margin-top: 20px; 
+}
+h1 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+}
+h2 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+P {
+    padding-bottom: 10pX;
+    padding: 20px;
+    font-size: 12px;
+    background: lightcoral;
+    text-align: justify;
+}

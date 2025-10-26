@@ -1,0 +1,10 @@
+/*selector de elementos*/
+li {
+    color: green;
+}
+.faltante {
+    color:red;
+}
+#secreto { /* no se recomienda es un identificador unico*/
+    color:blue;
+}

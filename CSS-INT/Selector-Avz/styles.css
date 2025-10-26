@@ -1,0 +1,34 @@
+.ingrediente-faltante{
+    color:red
+}
+#ingrediente-secreto{
+    color: blue;
+}
+img[src="perro.png"]{ /* Selector de imagen que tengan el atributo perro.png, el dolar $ que termine con png, el ^ e es arranca con*/
+    width: 100%;
+}
+
+/* Selector decendiente */
+ul li{ /* Selector de todos los li que esten dentro de un ul */
+    color: red; 
+}
+
+/* Selector hijo directo*/
+ul > strong{ /* Selector de todos los strong que esten dentro de un ul  sin embargo no es hijo directo para eso se coloca > solo dentro de ul no de otro mas como intermedio*/
+    color: green; 
+}
+
+/* Selector adyacente */
+h1 + p{ /* Selector del primer p que este despues de un h1 */
+    color: orange;
+}
+
+/* Selector general de hermanos*/
+h1 ~ p{ /* Selector de todos los p que esten despues de un h1 */
+    color : orange;
+}
+
+/*H1 y P con la misma fuente*/
+h1, p{
+    font-family: sans-serif;
+}
