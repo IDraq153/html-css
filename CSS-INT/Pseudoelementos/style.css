@@ -1,0 +1,9 @@
+h1:first-letter {
+    color: blue;
+    font-size: 100px;
+    letter-spacing: -8px;
+}
+p::first-line {
+    color: green;
+    font-weight: bold;
+}
