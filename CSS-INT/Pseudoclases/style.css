@@ -1,0 +1,57 @@
+h1{
+    color:#48e;
+    font-family: sans-serif;
+    margin: 30px
+}
+/*Pseudoclase hover pasar el mouse por encima*/
+h1:hover{
+    background-color: #ccc;
+    color:#000
+}
+/*Pseudoclase active al dar click*/
+h1:active{
+    color: #fff;
+    background-color: #ccc
+}
+/*Pseudoclase first-child seleccionar el primer elemento*/
+li:first-child {
+    color: red
+}
+/*Pseudoclase nth-child seleccionar el tercer elemento o cualquiera*/
+li:nth-child(3) {
+    color: green
+}
+/*Pseudoclase nth-child seleccionar los elementos pares*/
+li:nth-child(2n) {
+    color: orange
+}
+/*Pseudoclase last-child seleccionar el ultimo elemento*/
+li:last-child {
+    color: blue
+}
+/*Pseudoclases link y visited para enlaces*/
+a:link {
+    color: #48e
+}
+a:visited {
+    color: #e848e8
+}
+
+/* lo mismo es que el siguiente*/
+section .elem1,
+section .elem2,
+section .elem3 {
+    color: #48e;
+}
+/*Pseudoclase is para agrupar selectores dentro de un section*/
+section:is(.elem1, .elem2, .elem3) {
+    font-weight: bold;
+}
+/*Pseudoclase where para agrupar selectores sin especificar peso no cambia la especifidad*/
+section:where(.elem2) {
+    text-decoration: underline;
+}
+/*Pseudoclase has para seleccionar un elemento padre que contenga un hijo especifico*/
+section:has(.elem3) {
+    font-size: 20px;
+}
