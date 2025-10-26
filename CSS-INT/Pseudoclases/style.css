@@ -55,3 +55,8 @@ section:where(.elem2) {
 section:has(.elem3) {
     font-size: 20px;
 }
+
+h1 {
+    color: #48e;
+    font-family: sans-serif;
+}
